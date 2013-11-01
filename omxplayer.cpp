@@ -1364,10 +1364,10 @@ int main(int argc, char *argv[])
         goto do_exit;
         break;
       case KeyConfig::ACTION_SEEK_BACK_SMALL:
-        if(m_omx_reader.CanSeek()) m_incr = -30.0;
+        if(m_omx_reader.CanSeek()) m_incr = -2.0;
         break;
       case KeyConfig::ACTION_SEEK_FORWARD_SMALL:
-        if(m_omx_reader.CanSeek()) m_incr = 30.0;
+        if(m_omx_reader.CanSeek()) m_incr = 2.0;
         break;
       case KeyConfig::ACTION_SEEK_FORWARD_LARGE:
         if(m_omx_reader.CanSeek()) m_incr = 600.0;
