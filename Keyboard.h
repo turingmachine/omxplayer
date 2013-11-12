@@ -2,6 +2,7 @@
 #define OMXPLAYER_DBUS_INTERFACE_ROOT "org.mpris.MediaPlayer2"
 #define OMXPLAYER_DBUS_INTERFACE_PLAYER "org.mpris.MediaPlayer2.Player"
 
+#include "system.h"
 #include "OMXThread.h"
 #include <map>
 
